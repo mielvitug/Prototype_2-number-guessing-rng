@@ -1,4 +1,4 @@
-# Number Guessing Game + I mess around 
+# Number Guessing Game + I mess around and hardcode it as much as possible 
 
 import random # imports the python dependencies
 import tkinter as tk # GUI library
