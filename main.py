@@ -12,6 +12,8 @@ window.geometry("500x700") # Starting size of the window
 BASE_DIR = PATH(__file__).resolve().parent
 IDLE_GIF_PATH = BASE_DIR / "emojis_data" / "com_emoji.gif"
 
+gif_index = 0
+
 secret_number = random.randint(1,100)
 
 # function show_guess
@@ -85,4 +87,4 @@ if idle_frames:
 else: 
     gif_label.config(text="GIF not found")
 
-window.mainloop() # starts the window
+window.mainloop() # starts the window=
